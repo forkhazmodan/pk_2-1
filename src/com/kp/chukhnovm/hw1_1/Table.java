@@ -2,7 +2,10 @@ package com.kp.chukhnovm.hw1_1;
 
 import com.kp.chukhnovm.hw1_1.shapes.Shape;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.Arrays;
+import java.util.Locale;
 
 public class Table {
 
@@ -18,7 +21,6 @@ public class Table {
             if (shape != null) {
                 totalArea += shape.getArea();
             }
-
         }
 
         return totalArea;
@@ -51,9 +53,13 @@ public class Table {
     @Override
     public String toString() {
 
+        Locale.setDefault(Locale.US);
+        DecimalFormat df = new DecimalFormat("0.00");
+        df.setRoundingMode(RoundingMode.UP);
+
         return String.format("Table{ sections=%s, totalArea=%s}",
                 Arrays.toString(sections),
-                this.getTotalArea()
+                df.format(this.getTotalArea())
         );
     }
 }

@@ -2,6 +2,8 @@ package com.kp.chukhnovm.hw1_1.shapes;
 
 import com.kp.chukhnovm.hw1_1.Point;
 
+import java.text.DecimalFormat;
+
 public class Triangle extends Shape {
 
     private Point p1;
@@ -36,11 +38,7 @@ public class Triangle extends Shape {
         double P = this.getPerimeter();
         double halfP = P / 2;
 
-        return round(Math.sqrt(halfP * (halfP - a) * (halfP - b) * (halfP - c)));
-    }
-
-    private double round(double num) {
-        return Math.round(num * 100d) / 100d;
+        return Math.sqrt(halfP * (halfP - a) * (halfP - b) * (halfP - c));
     }
 
     @Override

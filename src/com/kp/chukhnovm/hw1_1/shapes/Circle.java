@@ -16,7 +16,7 @@ public class Circle extends Shape {
     }
 
     public double getRadius() {
-        return Shape.getLength(p1, p2);
+        return p1.distTo(p2);
     }
 
     @Override
