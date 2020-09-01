@@ -28,7 +28,7 @@ public class Main {
 
         System.out.println(table.toString());
 
-        table.addShape(c4); // After removing we can add shapes
+        table.addShape(c4); // After removing we can add shapes again
 
         System.out.println(table.toString());
     }
