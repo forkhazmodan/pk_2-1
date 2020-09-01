@@ -53,6 +53,7 @@ public class Table {
     @Override
     public String toString() {
 
+        // How about rounding like this?
         Locale.setDefault(Locale.US);
         DecimalFormat df = new DecimalFormat("0.00");
         df.setRoundingMode(RoundingMode.UP);
