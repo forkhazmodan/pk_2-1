@@ -1,4 +1,4 @@
-package com.kp.chukhnovm.hw1_1;
+package com.kp.chukhnovm.hw2_1;
 
 import static java.lang.StrictMath.pow;
 import static java.lang.StrictMath.sqrt;

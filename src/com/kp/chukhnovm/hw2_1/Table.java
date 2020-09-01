@@ -1,6 +1,6 @@
-package com.kp.chukhnovm.hw1_1;
+package com.kp.chukhnovm.hw2_1;
 
-import com.kp.chukhnovm.hw1_1.shapes.Shape;
+import com.kp.chukhnovm.hw2_1.shapes.Shape;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;

@@ -1,6 +1,6 @@
-package com.kp.chukhnovm.hw1_1.shapes;
+package com.kp.chukhnovm.hw2_1.shapes;
 
-import com.kp.chukhnovm.hw1_1.Point;
+import com.kp.chukhnovm.hw2_1.Point;
 
 public class Circle extends Shape {
 

@@ -1,4 +1,4 @@
-package com.kp.chukhnovm.hw1_1.shapes;
+package com.kp.chukhnovm.hw2_1.shapes;
 
 abstract public class Shape {
     public abstract double getPerimeter();
